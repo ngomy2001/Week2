@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN PAGE</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheets/reset.css" />
+    <link rel="stylesheet" href="stylesheets/login_style.css" />
+  </head>
+  <body>
+    <div class="signup">
+      <h1 class="signup__heading">Sign in</h1>
+      <button class="signup__social">
+        <i class="fab fa-google signup__social-icon"></i>
+        <span class="signup__social-text">Sign in with Google</span>
+      </button>
+      <div class="signup__or">
+        <span class="signup__or-text">or</span>
+      </div>
+
+      <form action="#" class="signup__form" id="loginForm">
+        <label for="username" class="signup__label">Username</label>
+        <input
+          type="text"
+          id="username"
+          class="signup__input"
+          placeholder="Enter your username"
+        />
+        <label for="password" class="signup__label">Password</label>
+        <input
+          type="password"
+          id="password"
+          class="signup__input"
+          placeholder="Enter your password"
+        />
+        <button class="signup__submit" type="submit">Sign in</button>
+      </form>
+
+      <p class="signup__already">
+        <span>Create a new account?</span>
+        <a href="#" class="signup__login-link">Register here</a>
+      </p>
+    </div>
+  </body>
+  <script src="javascripts/loginprocess.js"></script>
+</html>
